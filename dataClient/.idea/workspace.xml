@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0152bbb6-aaee-498e-b212-e8a6cf69d70c" name="Changes" comment="v2: 四实体服务版本（两客户端，两服务端）&#10;1. dataServer作为云端提供存储和协作计算服务&#10;2. keyServer作为云端持有私钥，可以进行解密操作，与dataServer协作完成密文下查询&#10;3. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;4. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求&#10;&#10;feat: 添加了各种前端可供调用的接口&#10;feat: 修改了查询结果的实现方式，现在保持和论文描述一致，由S1返回扰动值，S2返回加扰动的查询结果，查询用户通过减去扰动获得真实查询结果">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2ar3eTzffJUZwsZ5ZZ399S41HfC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/6G无线网络协同可信与隐私保护/6G网络中面向位置数据的隐私保护方案/locationSearch/dataClient",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\6G无线网络协同可信与隐私保护\6G网络中面向位置数据的隐私保护方案\locationSearch\dataClient" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.location" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.location.Main" />
+      <module name="dataClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.location.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.location.WebServer" />
+      <module name="dataClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.location.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.WebServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0152bbb6-aaee-498e-b212-e8a6cf69d70c" name="Changes" comment="" />
+      <created>1705062967074</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705062967074</updated>
+      <workItem from="1705062968093" duration="57000" />
+      <workItem from="1705063228034" duration="22651000" />
+      <workItem from="1705145583022" duration="638000" />
+      <workItem from="1705146254999" duration="55291000" />
+      <workItem from="1706258013316" duration="657000" />
+      <workItem from="1722139026948" duration="744000" />
+      <workItem from="1740658307000" duration="544000" />
+    </task>
+    <task id="LOCAL-00001" summary="v1: 三实体服务版本（两客户端，一服务端）&#10;1. dataServer作为云端提供服务&#10;2. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;3. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求">
+      <option name="closed" value="true" />
+      <created>1705225632974</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705225632974</updated>
+    </task>
+    <task id="LOCAL-00002" summary="v2: 四实体服务版本（两客户端，两服务端）&#10;1. dataServer作为云端提供存储和协作计算服务&#10;2. keyServer作为云端持有私钥，可以进行解密操作，与dataServer协作完成密文下查询&#10;3. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;4. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求&#10;&#10;feat: 添加了各种前端可供调用的接口&#10;feat: 修改了查询结果的实现方式，现在保持和论文描述一致，由S1返回扰动值，S2返回加扰动的查询结果，查询用户通过减去扰动获得真实查询结果">
+      <option name="closed" value="true" />
+      <created>1705390043825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705390043825</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="v1: 三实体服务版本（两客户端，一服务端）&#10;1. dataServer作为云端提供服务&#10;2. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;3. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求" />
+    <MESSAGE value="v2: 四实体服务版本（两客户端，两服务端）&#10;1. dataServer作为云端提供存储和协作计算服务&#10;2. keyServer作为云端持有私钥，可以进行解密操作，与dataServer协作完成密文下查询&#10;3. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;4. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求&#10;&#10;feat: 添加了各种前端可供调用的接口&#10;feat: 修改了查询结果的实现方式，现在保持和论文描述一致，由S1返回扰动值，S2返回加扰动的查询结果，查询用户通过减去扰动获得真实查询结果" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2: 四实体服务版本（两客户端，两服务端）&#10;1. dataServer作为云端提供存储和协作计算服务&#10;2. keyServer作为云端持有私钥，可以进行解密操作，与dataServer协作完成密文下查询&#10;3. dataClient初始化四叉树参数和提供位置节点数据，并上传至dataServer&#10;4. queryClient使用已经写死的查询矩形和多边形锚点发送查询请求&#10;&#10;feat: 添加了各种前端可供调用的接口&#10;feat: 修改了查询结果的实现方式，现在保持和论文描述一致，由S1返回扰动值，S2返回加扰动的查询结果，查询用户通过减去扰动获得真实查询结果" />
+  </component>
+</project>

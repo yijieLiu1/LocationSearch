@@ -1,0 +1,16 @@
+9月 24, 2025 7:45:23 下午 org.location.handler.SHEParameterHandler handle
+信息: 接收SHE算法参数：
+9月 24, 2025 7:45:23 下午 org.location.handler.SHEParameterHandler handle
+信息: k0: 1024, k1: 40, k2: 450, k3: 80
+9月 24, 2025 7:45:24 下午 org.location.handler.SHEParameterHandler handle
+信息: p: 17678, q: 55038, l: 25074, N: 97299
+9月 24, 2025 7:45:24 下午 org.location.handler.SHEParameterHandler handle
+信息: E0_1: 61972, E0_2: 16663
+9月 24, 2025 7:45:24 下午 org.location.handler.SHEParameterHandler handle
+配置: SHE同态加密算法参数初始化完成
+9月 24, 2025 7:45:24 下午 org.location.handler.QuadtreeParameterHandler handle
+信息: 接收四叉树参数
+9月 24, 2025 7:45:24 下午 org.location.handler.QuadtreeParameterHandler handle
+信息: 初始化参数概要：num=128, MINSIZE(密文前缀)=17114716...
+9月 24, 2025 7:45:24 下午 org.location.handler.QuadtreeParameterHandler handle
+配置: 四叉树参数初始化完成
